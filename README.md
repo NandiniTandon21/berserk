@@ -42,11 +42,11 @@ Feel the pull of destiny? **Click on the sword** within the webpage to explore t
 ### Installation  
 1. Clone this repository to your local machine:  
    ```bash
-   git clone https://github.com/your-username/berserk-fan-page.git
+   git clone https://github.com/your-username/berserk.git
 
 2. Navigate to the project folder:
    ```bash
-   cd berserk-fan-page
+   cd berserk
 
 3. Open the index.html file in your browser.
 
