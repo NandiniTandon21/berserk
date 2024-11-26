@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar, .intro, .start, .middle, .modal {
+    margin: 20px;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 20px;
+}
+
+.intro {
+    height: fit-content;
+}
+
+#logo {
+    height: 100px;
+    width:auto;
+}
+
+#icon {
+    width: auto;
+    height: 70px; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#panel {
+    width: 50%; /* Use percentage for width */
+    height: auto;
+    margin: 30px;
+    align-self:flex-end;
+}
+
+.intro {
+    background-color: #8F8F8E;
+}
+
+p {
+    color: white;
+    font-size: 1.3rem; /* Use rem for font size */
+}
+
+.content {
+    max-width: 400px; /* Fixed max-width */
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.content text {
+    font-size: 3.5rem; /* Use rem for font size */
+}
+
+button {
+    padding: 10px; /* Fixed padding for buttons */
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Use fixed gap for consistency */
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px; /* Fixed margin for consistency */
+    margin-top: 30px; /* Fixed margin for consistency */
+}
+
+#name {
+    margin-top: 10px; /* Fixed margin for names */
+    font-size: 1.5rem; /* Use rem for font size */
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.img-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.start .img-content img {
+    align-self: center;
+    border-radius: 50%;
+    width: 200px; /* Fixed width for images */
+    max-height: 200px; /* Fixed max height for images */
+}
+
+.img-content p {
+    font-size: 1.2rem; /* Use rem for font size */
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.start {
+    background-color: #400101;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* Use percentage for width */
+    justify-content: center;
+    align-self: center;
+}
+
+.middle p, strong {
+    font-size: 1.5rem; /* Use rem for font size */
+}
+
+.modal {
+    display: flex;
+    flex-direction: row;
+    background-color: #8F8F8E;
+}
+
+.modal p {
+    font-size: 1.5rem; /* Use rem for font size */
+}
+
+#copyright {
+    color: maroon;
+    text-align: center;
+}
+
+#explore {
+    transform: rotate(270deg);
+    width: 50px; /* Fixed width for explore button */
+    height: 150px; /* Fixed height for explore button */
+    border-radius: 15px; /* Fixed border radius */
+}
